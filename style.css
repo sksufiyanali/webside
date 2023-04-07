@@ -1,82 +1,84 @@
-* {
-    box-sizing: border-box;
+body{
+    background-image:url(bg.jpg.png);
+    background-position: center;
+    background-size: cover;
+    height:95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: cursive;
+
+}
+.Login-box{
+    width: 320px;
+    height:390px;
+    background: radial-gradient(rgba(255,255,255,0.6));
+    box-shadow:5px 10px 20px rgba(0,0,0,0.6);
+    backdrop-filter: blue(3px);
+    border-radius: 20px;
+}
+img{
+    width:120px;
+    height:120px;
+    margin-left:31%;
+    margin-top: -65px;
+
+}
+h2{
+    margin-top: 2px;
+    margin-left: 37%;
+    font-size: 22px;
+    cursor:pointer;
+}
+h3,input{
+    margin-left: 30px;
+}
+h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+input{
+    width: 80%;
+    height:20px;
+    outline: none;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    background: transparent;
+    border-bottom: solid #fff;
+    color:#000;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: cursive;
+    padding-bottom: 3px;
+    margin-bottom: 15px;
+
+
+}
+input:hover{
+    border-bottom: solid#000;
+
+}
+::placeholder{
+    color:#000;
+}
+button{
+    font-size: 18px;
+    padding:6px 16px;
+    margin-top: 20px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    color:#fff;
+    background: #000;
+    margin-left: 118px;
+    cursor: pointer;
+    transition:0.3 ease;
+}
+Button:hover{
+    color:#000;
+    background: #fff;
 }
 
-body {
-    margin: 0px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
 
-header h1 {
-    text-align: center;
-    font-size: 40px;
-    color: white;
-}
-
-header {
-    padding: 40px;
-    background-color: rgb(17, 124, 143);
-}
-
-nav {
-    background-color: #333;
-    overflow: hidden;
-}
-a:hover{
-    color:blue;
-}
-
-nav a {
-    text-decoration: none;
-    padding: 20px;
-    text-align: center;
-    float: left;
-    color: white;
-    
-}
-
-main {
-    background-color: white;
-    text-align: center;
-}
-
-h2 {
-    padding: 20px;
-}
-
-section:nth-child(even) {
-    background-color: rgb(241, 241, 241);
-}
-
-section {
-    min-height: 100vh;
-}
-
-video {
-    padding: 10px;
-}
-
-iframe {
-    height: 75vh;
-}
-
-img {
-    padding: 10px;
-}
-
-section h5 {
-    margin: 40px;
-}
-
-footer {
-    background-color: #333;
-    overflow: hidden;
-}
-
-footer a {
-    text-decoration: none;
-    padding: 20px;
-    text-align: center;
-    float: left;
-    color: white;
-}
